@@ -32,3 +32,6 @@ work.py 关于空难数据集和pyecharts画图的部分代码，大约有1000�
 由于 pyecharts 官网没有给出各个国家和地区的名称，或给出的名称和实际使用的名称不一致，本文对 pyecharts 用到的地理名称进行了梳理。  
 主要存储了 pyecharts 中美国52个地区的地区名，和全球218个国家和地区的 pyechats 名称。  
 除了两个地区 pyecharts 在地图上无法标注外，其余国家和地区均在这个文件中存在。  
+
+## UCL 二分类数据集
+ucl_credit6000.ipynb 储存了 LR、KNN、DecisionTree、RF、GBDT 和 Neural Networks 在二分类数据集上的代码。部分利用 GridSearchCV 进行了调参。
